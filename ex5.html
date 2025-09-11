@@ -17,7 +17,6 @@
         #square {
             width: 150px;
             height: 150px;
-            border-radius: 0%;
             background-color: goldenrod;
             text-align: center;
             padding-top: 60px;
@@ -37,9 +36,11 @@
         // add code here
         function mOver(obj) {
             obj.id = "square";
+            obj.style.paddingTop = "20px";
         }
         function mOut(obj) {
             obj.id = "circle";
+            obj.style.paddingTop = "60px";
         }
     </script>
 
